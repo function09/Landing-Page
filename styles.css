@@ -21,14 +21,14 @@ header{
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    margin: 32px;
+    padding: 48px;
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 32px;
+    margin: 48px;
     gap: 32px;
     font-size: 18px;
 }
@@ -72,4 +72,30 @@ button{
     padding: 8px 32px;
     border-radius: 12px;
     font-size: 24px;
+}
+
+.cat{
+    width: 200px;
+    height: auto;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info{
+    max-width: 200px;
+    font-size: 18px;
+    color:#1F2937
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bold;
 }
